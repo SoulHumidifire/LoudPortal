@@ -1,0 +1,52 @@
+doctype html
+html
+  head
+    title Coming Soon! #{title}
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, user-scalable=no')
+    //if lte IE 8
+      script(src='assets/js/ie/html5shiv.js')
+    link(rel='stylesheet', href='stylesheets/main.css')
+    //if lte IE 8
+      link(rel='stylesheet', href='assets/css/ie8.css')
+    //if lte IE 9
+      link(rel='stylesheet', href='assets/css/ie9.css')
+  body
+    // Header
+    header#header
+      h1 Steis (logo)
+      p
+        | Sign up for updates with New Music and Announcements!
+        br
+        | 				The new album "Lost For Words" is coming Soon! 
+        |               Stay Up to date with the movement @ 
+        a(href='http://html5up.net') Soul Humidifire
+        | .
+    // Signup Form
+    form#signup-form(method='post', action='#')
+      input#email(type='email', name='email', placeholder='Email Address')
+      input(type='submit', value='Sign Up')
+    // Footer
+    footer#footer
+      ul.icons
+        li
+          a.icon.fa-twitter(href='#')
+            span.label Twitter
+        li
+          a.icon.fa-instagram(href='#')
+            span.label Instagram
+        li
+          a.icon.fa-github(href='#')
+            span.label GitHub
+        li
+          a.icon.fa-envelope-o(href='#')
+            span.label Email
+      ul.copyright
+        li © Soul Humidifire.
+        li
+          | Credits: 
+          a(href='http://html5up.net') HTML5 UP
+    // Scripts
+    //if lte IE 8
+      script(src='assets/js/ie/respond.min.js')
+    script(src='javascripts/main.js')
